@@ -1,14 +1,11 @@
-import Card from "./Card";
-
 export default function Hero() {
   return (
-    <section className="px-6 py-10">
-      <h2 className="text-2xl font-bold mb-6">Featured UI Patterns</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <Card title="WAN 2.2" description="Mobile dashboard concept" image="/sample.png" />
-        <Card title="Flux Design" description="Creative landing page" image="/sample.png" />
-        <Card title="Next App" description="Clean modern UI" image="/sample.png" />
-      </div>
+    <section className="bg-gray-100 py-20 text-center">
+      <h2 className="text-4xl font-bold mb-4">Welcome to My App</h2>
+      <p className="text-lg text-gray-700">This is the hero section.</p>
+      <button className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+        Get Started
+      </button>
     </section>
   );
 }
