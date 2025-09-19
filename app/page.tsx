@@ -1,11 +1,11 @@
-import Hero from "@/components/Hero";
-import Gallery from "@/components/Gallery";
+import Hero from './components/Hero'
+import Gallery from './components/Gallery'
 
-export default function Page() {
+export default function HomePage() {
   return (
-    <>
+    <main>
       <Hero />
       <Gallery />
-    </>
-  );
+    </main>
+  )
 }
