@@ -12,12 +12,24 @@ export default function Home() {
         <p className="text-gray-600">This is the hero section.</p>
 
         {/* Gallery */}
-        <section className="mt-8">
+        <section className="mt-8 w-full max-w-4xl">
           <h3 className="text-xl font-semibold mb-4">Gallery</h3>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-gray-300 h-32 rounded-lg"></div>
-            <div className="bg-gray-400 h-32 rounded-lg"></div>
-            <div className="bg-gray-500 h-32 rounded-lg"></div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <img
+              src="https://placekitten.com/300/200"
+              alt="Kitten 1"
+              className="rounded-lg shadow-md"
+            />
+            <img
+              src="https://placekitten.com/301/200"
+              alt="Kitten 2"
+              className="rounded-lg shadow-md"
+            />
+            <img
+              src="https://placekitten.com/302/200"
+              alt="Kitten 3"
+              className="rounded-lg shadow-md"
+            />
           </div>
         </section>
       </main>
@@ -29,3 +41,4 @@ export default function Home() {
     </div>
   );
 }
+
