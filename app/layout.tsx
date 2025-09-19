@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Frontend App",
-  description: "My Next.js project with Navbar, Hero, Gallery, and Footer",
+  description: "My Next.js project",
 };
 
 export default function RootLayout({
