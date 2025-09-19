@@ -1,11 +1,9 @@
-import Hero from './components/Hero'
-import Gallery from './components/Gallery'
-
-export default function HomePage() {
+export default function Home() {
   return (
-    <main>
-      <Hero />
-      <Gallery />
+    <main className="flex min-h-screen items-center justify-center bg-gray-900 text-white">
+      <h1 className="text-4xl font-bold">
+        🚀 Tailwind is Working!
+      </h1>
     </main>
-  )
+  );
 }
